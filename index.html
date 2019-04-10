@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please Enter Your Details For Our Dating Website</h1>
+   
+
+    <fieldset>
+        <legend>Your Face:</legend>
+            <form action="/action_page.php">
+                <label for="Your-img">Your image</label>
+                <input type="file" name="myFile"><br>
+                <label for="Image preview">Image preview</label>
+                <img id="preview"><br>
+            </form>
+    </fieldset>        
+
+<div>
+    <fieldset>
+         <legend>Your General Information:</legend>
+            <form>
+                <label for="First name">First name:</label>
+                <input type="text" name="name"><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female<br>
+                <label for="Age">Age:</label>
+                <input type="number" name="quantity" min="18" max="100"><br>
+                <label for="bday">Birthday:</label>
+                <input type="date" name="bday"><br>
+                <label for="color">Favourtite Color:</label>
+                <input type="color" name="favcolor" value="black"><br> 
+            
+                <label for="country">Which country:</label>
+            <select name="Country" form="Country">
+                <option value="No selection">No selection</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Norway">Norway</option>
+                <option value="Germany">Germany</option>
+                <option value="Denmark">Denmark</option>
+            </select>
+        </fieldset>
+    </form>
+</div>
+<div>
+    
+    <fieldset>
+        <legend>Your Indicators</legend>
+            <label>Height:</label>
+            <label for="height" class="left">Short</label>
+            <input type="range" id="height" name="height" min="0" max="100" step="1" value="81">
+            <label for="height" class="right">Tall</label><br>
+            <label for="salary">Salary:</label>
+            <label for="salary" class="left">Poor</label>
+            <input type="range" id="salary" name="salary" min="0" max="100" step="1" value="18">
+            <label for="salary" class="right">Rich</label> <br>
+    </fieldset> <br> 
+</div>
+<div>
+    <fieldset>
+        <legend>Your Contact Information:</legend>
+            <form>
+                <label for="E-mail">E-mail:</label>
+                <input type="email"><br> 
+                <label for="Mobile">Mobile:</label> 
+                <input type="mobil"><br> 
+                <label for="Adress">Adress:</label>
+                <textarea name="" id="adress" cols="30" rows="10"></textarea><br>
+        
+            <form action="/action_page.php">
+                <label for="contact">Method to contact you:</label>
+                <input type="checkbox" name="vehicle1" value="E-mail"> E-mail
+                <input type="checkbox" name="vehicle2" value="Whatsapp"> Whatsapp
+                <input type="checkbox" name="vehicle3" value="In-app chat"> In-app chat
+            </form>
+    </fieldset> 
+    <input type="submit" value="Submit">  
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+fieldset {
+    background-color: lightyellow;
+    border:10px solid yellow;
+    margin-bottom:10px;
+    width: 720px;
+}
+
+label {
+    width: 180px;
+    display:inline-block;
+    text-align: right;
+    text-align: top;
+    margin: 2.5px;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+input[type=checkbox] {
+    width: auto;
+}
+
+/* Your indicators */
+
+.left{
+    text-align: center;
+    width:40px;
+    color:white;
+    background: darkred;
+    padding:3px;
+  }
+  .right{
+    text-align: center;
+    width:40px;
+    color:white;
+    background: purple;
+    padding:3px;
+  }
+
+textarea {
+    width:360px;
+    height:50px;
+}
+
+label:hover { font-size:40px }
